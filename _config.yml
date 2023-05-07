@@ -31,21 +31,11 @@ url: "https://jjblog.blog"
 github:
   username: jason-jang-dev # change to your github username
 
-twitter:
-  username: # change to your twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Jason Jang
   email: jason.jang2008@gmail.com # change to your email address
-  links:
-    # The first element serves as the copyright owner's link
-    # change to your twitter homepage
-    # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
 google_site_verification: # fill in to your verification string
 
