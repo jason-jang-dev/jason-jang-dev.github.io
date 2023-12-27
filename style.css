@@ -6,7 +6,9 @@
 }
 
 li a:hover {
-  background-color: rgba(0, 0, 255, 0.3);
+  color: white !important;
+  background-color: navy;
+  /*background-color: rgba(3, 3, 68, 0.5);*/
 }
 
 section {
