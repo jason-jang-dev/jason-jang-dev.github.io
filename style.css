@@ -1,141 +1,145 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+li a:hover {
+  background-color: rgba(0, 0, 255, 0.3);
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #page-1 {
-    background-image:url('./intro_img.jpg');
-    background-size:cover;
+  background-image: url("./intro_img.jpg");
+  background-size: cover;
 }
 
 #page-1 h1 {
-    text-align: right;
-    background-color: #254EDB;
-    color: white;
+  text-align: right;
+  background-color: #254edb;
+  color: white;
 }
 
 #page-2 {
-    background: #4F709C;
+  background: #4f709c;
 }
 
 #page-3 {
-    background: #E5D283;
+  background: #e5d283;
 }
 
 #page-4 {
-    background: #497174;
+  background: #497174;
 }
 
-header{
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    /*font-family: 'Noto Sans KR', sans-serif;
+header {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  /*font-family: 'Noto Sans KR', sans-serif;
     font-size: x-large;*/
 }
 
 header a {
-    text-decoration: none;
-    color : white;
-    margin-left: 1em;
-    margin-right: 1em;
-    font-weight: 300;
-    font-size : x-large;
+  text-decoration: none;
+  color: white;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-weight: 300;
+  font-size: x-large;
 }
 
 header a:hover {
-    font-weight: 500;
-    border-bottom: solid 2pt;
+  font-weight: 500;
+  border-bottom: solid 2pt;
 }
 
 .section_title {
-    font-weight: bold;
-    color: white;
-    font-size: 8vh;
+  font-weight: bold;
+  color: white;
+  font-size: 8vh;
 }
 
-.typing_text_box1{
-    font-size: 7vw;
-    text-align: left;
-    background-color: #213555;
-    color: white;
-    margin:0;
-    padding: 0;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 900;
+.typing_text_box1 {
+  font-size: 7vw;
+  text-align: left;
+  background-color: #213555;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 900;
 }
-  
-  .blink {
-    animation: blink 0.5s infinite;
-    font-size: 8vw;
-  }
-  
-  @keyframes blink {
-    to {
-      opacity: 0;
-    }
-  }
 
-  .swiper {
-    margin-top: 20px;
-    position: relative;
-    width: 70%;
-    height: 70%;
-  }
+.blink {
+  animation: blink 0.5s infinite;
+  font-size: 8vw;
+}
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@keyframes blink {
+  to {
+    opacity: 0;
   }
+}
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.swiper {
+  margin-top: 20px;
+  position: relative;
+  width: 70%;
+  height: 70%;
+}
 
-  .autoplay-progress {
-    position: absolute;
-    right: 16px;
-    bottom: 16px;
-    z-index: 10;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: var(--swiper-theme-color);
-  }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .autoplay-progress svg {
-    --progress: 0;
-    position: absolute;
-    left: 0;
-    top: 0px;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    stroke-width: 4px;
-    stroke: var(--swiper-theme-color);
-    fill: none;
-    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
-    stroke-dasharray: 125.6;
-    transform: rotate(-90deg);
-  }
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
