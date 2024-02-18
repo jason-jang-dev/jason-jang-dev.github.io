@@ -5,6 +5,10 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 
+.edu_li_1 {
+  margin-top: 10px;
+}
+
 li a:hover {
   color: white !important;
   background-color: navy;
